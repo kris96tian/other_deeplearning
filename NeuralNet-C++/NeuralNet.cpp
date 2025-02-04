@@ -296,7 +296,7 @@ void NeuralNetwork::train(const vector<vector<double>>& features, const vector<i
     }
 }
 
-static void evaluate(const NeuralNetwork& nn, const vector<vector<double>>& features, const vector<int>& labels, const LabelEncoder& label_encode)
+static void evaluate(const NeuralNetwork& nn, const vector<vector<double>>& features, const vector<int>& labels, const LabelEncoder& label_encoder)
 {
         int num_classes = label_encoder.num_classes();
         vector<vector<int>> confusion_matrix(num_classes, vector<int>(num_classes, 0));
