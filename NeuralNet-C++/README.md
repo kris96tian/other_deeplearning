@@ -83,7 +83,7 @@ Handles network initialization, prediction, training, and model saving.
 Compile the project using a C++ compiler (e.g., `g++`) and run the executable. For example:
 
 ```bash
-g++ -std=c++11 -o neural_net main.cpp
+g++ -std=c++11 -o neural_net NeuralNet.cpp
 ./neural_net
 ```
 
