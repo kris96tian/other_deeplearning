@@ -174,3 +174,14 @@ And then run:
 ```bash
 ./neural_net
 ```
+
+ **After compilation:**:
+   1. User input for the path to the dataset file.
+   2. User input for the column index of the label in the dataset.
+   3. User input on weather the dataset has a header row. (y/n)
+   4. User input for the learning rate.
+   5. User input for the number of epochs.
+   6. User input for the activation function. (enums)
+   7. User input for the hidden layer size.
+   8. User asked on saving the trained model. (if yes, user input for the model filename)
+
